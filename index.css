@@ -1,0 +1,33 @@
+:root{
+    --grey-100:#f5f5f5;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: var(--grey-100);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notes{
+    display: flex;
+    gap:30px;
+}
+
+.note{
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.note__footer{
+    display: flex;
+    justify-content: flex-end;
+}
